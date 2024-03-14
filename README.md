@@ -2,27 +2,27 @@
 
 Inputs:
 
-diameter: diameter of the shaft.
+-diameter: diameter of the shaft.
 
-length: Length of the shaft.
+-length: Length of the shaft.
 
-material properties (E, G, v, s_y): Young's modulus, shear modulus, Poisson's ratio, yield strength.
+-material properties (E, G, v, s_y): Young's modulus, shear modulus, Poisson's ratio, yield strength.
 
-load_1: Applied load on the shaft. Add more as needed, specify direction with positive or negative value
+-load_1: Applied load on the shaft. Add more as needed, specify direction with positive or negative value
 
-load_1_pos: Specify load location
+-load_1_pos: Specify load location
 
 
 
 Outputs:
 
-safety_factors: Array containing safety factors for fatigue, yielding, and deflection failure models.
+-safety_factors: Array containing safety factors for fatigue, yielding, and deflection failure models.
 
-max_load: Number for maximum allowable load.
+-max_load: Number for maximum allowable load.
 
-deflection: array of deflection lengths at points along the shaft.
+-deflection: array of deflection lengths at points along the shaft.
 
-fatigue: array containing fatigue analyisis
+-fatigue: array containing fatigue analyisis
 
 
 
