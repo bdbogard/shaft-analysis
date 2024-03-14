@@ -13,6 +13,7 @@ load_1: Applied load on the shaft. Add more as needed, specify direction with po
 load_1_pos: Specify load location
 
 
+
 Outputs:
 
 safety_factors: Array containing safety factors for fatigue, yielding, and deflection failure models.
@@ -22,6 +23,7 @@ max_load: Number for maximum allowable load.
 deflection: array of deflection lengths at points along the shaft.
 
 fatigue: array containing fatigue analyisis
+
 
 
 Usage:
